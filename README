@@ -1,0 +1,36 @@
+Simulation::Particle version 0.02
+=================================
+
+This module simulates a system of particles and the forces they
+excert on one another.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+   pray
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Test::More (version 0.44 or newer)
+  Data::Dumper (version 2 or newer)
+
+Some examples may need any of the following distributions:
+
+  Math::Project3D
+  Math::Project3D::Plot
+
+The distribution might work with earlier versions of the modules
+listed above, but I have not tested with any earlier versions.
+
+COPYRIGHT AND LICENCE
+
+Copyright (c) 2002 Steffen Mueller. All rights reserved.
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
